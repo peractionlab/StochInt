@@ -1,9 +1,11 @@
 # StochInt
 Stochastic Integration Modeling Toolbox
 
-A MATLAB Toolbox for modeling decision processes based on stochastic integration.
+A MATLAB toolbox for modeling decision processes based on stochastic integration. In addition to standard drift-diffusion models it also supports leaky integration, 2- and 3-dimensional stochastic processes, second guesses, etc.
 
-Some additional information can be found here: https://www.peractionlab.org/software?id=5
+Some additional information (e.g., publications in which the toolbox has been used) can be found here: https://www.peractionlab.org/software?id=5
+
+The individual functions provide more information about what they do and their input and output arguments.
 
 Content of Contents.m:
 
