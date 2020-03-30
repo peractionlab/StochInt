@@ -10,7 +10,7 @@ The individual functions provide more information about what they do and their i
 Content of Contents.m:
 
 `% Stochastic Integration Modeling Toolbox.`<br/>
-`% Version 2.8 (21-Oct-2019)`<br/>
+`% Version 2.9 (29-Mar-2020)`<br/>
 `% J. Ditterich, Center for Neuroscience, Univ. of California, Davis`<br/>
 `%`<br/>
 `% First passage time problems.`<br/>
@@ -23,6 +23,10 @@ Content of Contents.m:
 `%   ou_2d_3b_mar                  - 2D Ornstein-Uhlenbeck process, 3 boundaries, Markov chain approximation.`<br/>
 `%   ou_2d_3b_sim                  - 2D Ornstein-Uhlenbeck process, 3 boundaries, simulation.`<br/>
 `%   ou_2d_3b_sim_sc               - 2D Ornstein-Uhlenbeck process, 3 boundaries, simulation, also reports second choices (second guesses).`<br/>
+`%   ou_2d_3b_sim_sc_add_time      - 2D Ornstein-Uhlenbeck process, 3 boundaries, simulation, also reports second choices (second guesses) based on the states of the integrators a fixed amount of time after the threshold crossing.`<br/>
+`%   ou_2d_3b_two_cross_sim        - 2D Ornstein-Uhlenbeck prosess, 3 boundaries, simulation, the process waits for a second threshold crossing, which is then reported as the decision time.`<br/>
+`%   ou_2d_3b_1d_2b_sim_sc         - 2D Ornstein-Uhlenbeck process, 3 boundaries, simulation; once the first threshold crossing occurs, a new 1D OU process with two boundaries is started to decide between the two remaining options as a second choice; the decision time is given by the second threshold crossing.`<br/>
+`%   ou_2d_3b_1d_fixed_time_sim_sc - 2D Ornstein-Uhlenbeck process, 3 boundaries, simulation; once the first threshold crossing occurs, a new 1D OU process is started to decide between the two remaining options as a second choice; the decision is made after a fixed amount of time based on the sign of the current state of the process.`<br/>
 `%   ou_3d_3b_sim                  - 3D Ornstein-Uhlenbeck process, 3 boundaries, simulation.`<br/>
 `%   ou_3d_inh_fb_3b_sim           - 3D Ornstein-Uhlenbeck process with inhibitory feedback, 3 boundaries, simulation.`<br/>
 `%   ou_dropout_1d_2b_mar          - 1D Ornstein-Uhlenbeck process, dropout rate, 2 boundaries, Markov chain approximation.`<br/>
